@@ -6,10 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts --network pharos",
+    "test": "hardhat test"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@radix-ui/react-accordion": "latest",
     "@radix-ui/react-alert-dialog": "latest",
     "@radix-ui/react-aspect-ratio": "latest",
@@ -42,7 +46,10 @@
     "clsx": "^2.1.1",
     "cmdk": "latest",
     "date-fns": "4.1.0",
+    "dotenv": "^16.4.5",
     "embla-carousel-react": "latest",
+    "ethers": "^6.11.1",
+    "hardhat": "^2.23.0",
     "input-otp": "latest",
     "lucide-react": "^0.454.0",
     "next": "15.2.4",

@@ -22,7 +22,7 @@ export function HeroSection() {
             using smart contracts on the Pharos Network.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row animate-slide-up-delay-2">
-            <Link href="/signup">
+            <Link href="/login">
               <Button size="lg" className="gap-1 bg-gradient-primary hover:opacity-90 transition-opacity">
                 Get Started <ArrowRight className="h-4 w-4" />
               </Button>

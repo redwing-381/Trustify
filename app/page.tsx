@@ -29,13 +29,8 @@ export default function LandingPage() {
             </nav>
             <div className="flex items-center gap-2">
               <Link href="/login">
-                <Button variant="ghost" size="sm" className="hover:text-primary transition-colors">
-                  Log In
-                </Button>
-              </Link>
-              <Link href="/signup">
                 <Button size="sm" className="bg-gradient-primary hover:opacity-90 transition-opacity">
-                  Sign Up
+                  Connect Wallet
                 </Button>
               </Link>
               <ModeToggle />
@@ -148,7 +143,7 @@ export default function LandingPage() {
           <p className="max-w-[600px] md:text-xl animate-slide-up-delay-1">
             Join thousands of users who trust Trustify with their most important assets and wishes.
           </p>
-          <Link href="/signup" className="animate-slide-up-delay-2">
+          <Link href="/login" className="animate-slide-up-delay-2">
             <Button size="lg" variant="secondary" className="gap-1 bg-white text-primary hover:bg-white/90">
               Get Started <ArrowRight className="h-4 w-4" />
             </Button>

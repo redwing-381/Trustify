@@ -40,7 +40,7 @@ export function AppSidebar() {
   if (pathname === "/") return null
 
   // Don't show sidebar on auth pages
-  if (pathname === "/login" || pathname === "/signup") return null
+  if (pathname === "/login") return null
 
   return (
     <Sidebar>
